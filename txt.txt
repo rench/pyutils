@@ -1,1 +1,2 @@
 https://github.com/mzucker/noteshrink
+pip install NumPy SciPy img2pdf pdf2docx

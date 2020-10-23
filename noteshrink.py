@@ -542,7 +542,7 @@ def notescan_main(options):
         if img is None:
             continue
 
-        output_filename = '{}{:04d}.png'.format(
+        output_filename = 'tmp/{}{:04d}.png'.format(
             options.basename, len(outputs))
 
         if not options.quiet:
